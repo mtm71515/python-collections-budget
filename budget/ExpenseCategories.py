@@ -24,7 +24,7 @@ from . import Expense
 expenses = Expense.Expenses()
 expenses.read_expenses('data/spending_data.csv')
 '''
-    , number = 1000, globals = globals()))
+    , number = 100000, globals = globals()))
 
 if __name__ == "__main__":
     main()
